@@ -26,3 +26,26 @@ AI 開始工作前須讀取根目錄 `AGENTS.md`；不會自動讀取的工具�
 ## 課程資產架構 v0.2
 
 3D 資產以 `Assets/_Project/Art/Models/<模型名稱>/` 為單位，FBX、專屬貼圖／材質直接同層存放；可共用的 Material 放在 `Art/Materials/`。2D Sprite 與逐格動畫依角色放在 `Art/Sprites/<角色名稱>/`。詳見 `docs/01_資料夾與文件說明.md`。本 ZIP 不包含實際 Cat 模型或 Roll a Ball 程式碼。
+# 專案名稱：Unity 期中作業
+
+## 1. Project Name｜專案名稱
+gg
+
+## 2. Unity Version｜Unity 版本
+Unity 6000.3.17f1
+
+## 3. Git Tool｜使用工具
+JetBrains Rider
+
+## 4. Step-by-step｜操作過程
+1. 在 Rider 中開啟 Unity 專案範本。
+2. 啟用 Git 版本控制（Enable Version Control Integration）。
+3. 將專案變更進行 Commit（本機版本紀錄）。
+4. 連結至 GitHub 帳號並將專案 Push 上傳至遠端儲存庫。
+
+## 5. What I Learned｜概念學習筆記
+- **Repository（儲存庫）**：用來記錄與存放專案所有歷史版本及檔案的地方（分為本機 Local 與遠端 Remote）。
+- **Commit（提交）**：在本地端存檔，記錄當前專案的變更狀態與版本快照。
+- **Push（推送）**：將本地端 Commit 好的版本歷史上傳發布至遠端 GitHub 儲存庫。
+- **Pull（拉取）**：將遠端 GitHub 上的最新變更與版本下載並同步合併回本地端電腦。
+- **.gitignore（忽略檔）**：告訴 Git 不需要追蹤與上傳的檔案或資料夾（如 Unity 的 Library、Temp 等快取資料），避免佔用空間與造成版本衝突。
